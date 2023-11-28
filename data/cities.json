@@ -35,6 +35,114 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Vratsa",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2023-11-28T20:54:13.469Z",
+      "notes": "garga ne katsa",
+      "position": {
+        "lat": "43.23319741022136",
+        "lng": "23.543701171875004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Kyustendil",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2023-01-04T21:00:07.000Z",
+      "notes": "",
+      "position": {
+        "lat": "42.293564192170095",
+        "lng": "22.67578125"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Volos",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2023-11-28T21:01:09.465Z",
+      "notes": "",
+      "position": {
+        "lat": "39.38526381099774",
+        "lng": "22.917480468750004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Dronten",
+      "country": "Netherlands (the)",
+      "emoji": "🇳🇱",
+      "date": "2023-11-28T21:06:45.270Z",
+      "notes": "",
+      "position": {
+        "lat": "52.482780222078226",
+        "lng": "5.625"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Bielawy",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2023-11-28T21:08:36.377Z",
+      "notes": "",
+      "position": {
+        "lat": "52.05249047600099",
+        "lng": "19.599609375000004"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Aladag",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-11-06T21:08:36.000Z",
+      "notes": "",
+      "position": {
+        "lat": "37.50972584293751",
+        "lng": "35.50781250000001"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Pyli",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2023-11-28T21:10:12.417Z",
+      "notes": "",
+      "position": {
+        "lat": "39.51251701659638",
+        "lng": "21.687011718750004"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Zajecar",
+      "country": "Serbia",
+      "emoji": "🇷🇸",
+      "date": "2023-11-10T21:13:07.000Z",
+      "notes": "",
+      "position": {
+        "lat": "43.97700467496408",
+        "lng": "22.236328125000004"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Saceni",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2023-11-28T21:14:55.896Z",
+      "notes": "",
+      "position": {
+        "lat": "44.25306865928177",
+        "lng": "25.048828125000004"
+      },
+      "id": 98443206
     }
   ]
 }

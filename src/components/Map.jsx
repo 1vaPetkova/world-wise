@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
 import { useUrlPosition } from "../hooks/useUrlPosition";
@@ -24,7 +24,7 @@ function Map() {
     position: geolocation,
     getPosition,
   } = useGeolocation();
-  const { lat, lng } = useGeolocation();
+  const { lat, lng } = useUrlPosition();
 
   useEffect(
     function () {

@@ -40,9 +40,29 @@ function CitiesProvider({ children }) {
       .finally(() => setIsLoading(false));
   }
 
+  async function addCity(newCity) {
+    setIsLoading(true);
+    fetch(`${BASE_URL}/cities/`, {
+      method: "POST",
+      body: JSON.stringify(newCity),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error("There was an error saving data...");
+      })
+      .then((data) => setCities((cities) => [...cities, data]))
+      .catch((err) => alert(err))
+      .finally(() => setIsLoading(false));
+  }
+
   return (
     <CitiesContext.Provider
-      value={{ cities, isLoading, currentCity, fetchCity }}
+      value={{ cities, isLoading, currentCity, fetchCity, addCity }}
     >
       {children}
     </CitiesContext.Provider>
