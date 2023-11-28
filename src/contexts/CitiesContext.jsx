@@ -53,16 +53,31 @@ function CitiesProvider({ children }) {
         if (response.ok) {
           return response.json();
         }
-        throw new Error("There was an error saving data...");
+        throw new Error("There was an error adding the city...");
       })
       .then((data) => setCities((cities) => [...cities, data]))
       .catch((err) => alert(err))
       .finally(() => setIsLoading(false));
   }
 
+  async function deleteCity(id) {
+    setIsLoading(true);
+    fetch(`${BASE_URL}/cities/${id}`, {
+      method: "DELETE",
+    })
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error("There was an error deleting the city...");
+      })
+      .then(() => setCities((cities) => cities.filter((c) => c.id !== id)))
+      .catch((err) => alert(err))
+      .finally(() => setIsLoading(false));
+  }
   return (
     <CitiesContext.Provider
-      value={{ cities, isLoading, currentCity, fetchCity, addCity }}
+      value={{ cities, isLoading, currentCity, fetchCity, addCity, deleteCity }}
     >
       {children}
     </CitiesContext.Provider>
