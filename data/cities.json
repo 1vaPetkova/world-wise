@@ -25,30 +25,6 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Vratsa",
-      "country": "Bulgaria",
-      "emoji": "🇧🇬",
-      "date": "2023-11-28T20:54:13.469Z",
-      "notes": "garga ne katsa",
-      "position": {
-        "lat": "43.23319741022136",
-        "lng": "23.543701171875004"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Kyustendil",
       "country": "Bulgaria",
       "emoji": "🇧🇬",
@@ -83,6 +59,42 @@
         "lng": "22.252807617187504"
       },
       "id": 98443205
+    },
+    {
+      "cityName": "Pernik",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2023-11-29T20:50:28.625Z",
+      "notes": "puki 3",
+      "position": {
+        "lat": "42.61779143282346",
+        "lng": "23.027343750000004"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Vinica",
+      "country": "North Macedonia",
+      "emoji": "🇲🇰",
+      "date": "2023-07-04T19:57:36.000Z",
+      "notes": "",
+      "position": {
+        "lat": "41.87365126992505",
+        "lng": "22.510986328125"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Montana",
+      "country": "Bulgaria",
+      "emoji": "🇧🇬",
+      "date": "2023-11-29T21:00:47.748Z",
+      "notes": "",
+      "position": {
+        "lat": "43.432977075795606",
+        "lng": "23.241577148437504"
+      },
+      "id": 98443208
     }
   ]
 }
